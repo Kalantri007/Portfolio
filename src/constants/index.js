@@ -129,9 +129,10 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Aug 2024 - Present",
     points: [
-      "Contributed to an ongoing exploration of transitioning the application towards a SaaS model.",
-      "Developed solutions for data migration to ensure smooth transitions between systems.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Actively collaborated with university departments to organize and promote student engagement events, contributing to a 20% increase in event participation.",
+      "Facilitated personalized interactions with students, fostering a welcoming and informative environment to enhance their campus visit experience.",
+      "Utilized strong interpersonal skills to build rapport with diverse student groups, aiding in the university's outreach and inclusivity efforts.",
+      "Managed event logistics, including scheduling, set-up, and coordination with campus departments, ensuring smooth operations during key events.",
     ],
   },
   {
@@ -179,8 +180,8 @@ const testimonials = [
     testimonial:
     // "Vyankatesh’s role as a Student Ambassador at CSU Chico is a testament to his commitment to both academic excellence and community involvement. He’s a natural leader who connects with students and faculty alike, always striving to create a supportive and inclusive environment."
       "As a Student Ambassador, Vyankatesh has shown exceptional leadership and communication skills. His enthusiasm for helping fellow students and representing CSU Chico is truly inspiring. He brings a positive energy to every event and interaction, making him a wonderful ambassador for our university.",
-    name: "XYZ",
-    designation: "Program Coordinator",
+    name: "Sharleen Krater",
+    designation: "Director, AS Programs",
     company: "Associated Students CSU",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },

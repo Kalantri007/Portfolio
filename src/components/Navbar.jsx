@@ -28,8 +28,7 @@ const Navbar = () => {
 
   const handleResumeClick = () => {
     setActive("Resume");
-    // Hardcode the URL you want to navigate to
-    window.location.href = "https://drive.google.com/file/d/1FwErvji-Y2oSIB6kzol00hHexbl-mr3h/view?usp=sharing"; // Replace with your desired URL
+    window.location.href = "https://drive.google.com/file/d/1q9dF5ZTUu6l2qKFiD3k_lZwCEUnQdXCo/view"; 
   };
 
 
