@@ -28,7 +28,7 @@ const Navbar = () => {
 
   const handleResumeClick = () => {
     setActive("Resume");
-    window.location.href = "https://drive.google.com/file/d/1q9dF5ZTUu6l2qKFiD3k_lZwCEUnQdXCo/view"; 
+    window.location.href = "https://drive.google.com/file/d/1YjRQaD0FUaRMl4EevDBSJnuGdXe5Oonc/view?usp=sharing"; 
   };
 
 
