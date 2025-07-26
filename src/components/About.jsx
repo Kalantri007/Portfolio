@@ -64,7 +64,7 @@ const About = () => {
           the potential of AI 🤖. I thrive in environments where learning and adaptability are key 📚, 
           and I'm excited to bring my creativity and dedication to a dynamic team 💼. I'm on the lookout 
           for an internship where I can make an impact 💥 and grow into a full-time role, contributing to 
-          cutting-edge projects that push the boundaries of technology 🚀.
+          innovative projects that push the boundaries of technology 🚀.
           <br />
           <br />
           Excited to connect with you! 😊
