@@ -28,6 +28,13 @@ import {
   cfv,
   bank,
   DTMF,
+  CareSync,
+  DevBoard,
+  BiasMap,
+  ThreadMirror,
+  Chess,
+  AgilePilot,
+  SynapseSupply,
   matlab,
   python,
   mendix,
@@ -203,94 +210,208 @@ const testimonials = [
 
 const projects = [
   {
-    name: "College Enquiry Chatbot",
+    name: "SynapseSupply",
     description:
-      "A chatbot featuring a custom algorithm, meticulously designed to optimize accuracy (more than 95%) and provide precise, context-aware responses for enhanced user interactions and satisfaction.",
+      "Built an agentic supply chain platform that forecasts demand, evaluates supplier risk, and autonomously negotiates blockchain-backed contracts. Deployed AI-driven workflows that reduced manual intervention and improved procurement reliability; secured 3rd place at the SilverSide Hackathon.",
     tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CrewAI",
+        color: "green-text-gradient",
+      },
+      {
+        name: "React",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "AWS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Blockchain",
+        color: "green-text-gradient",
+      },
+      {
+        name: "AI Agent",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: SynapseSupply,
+  },
+  {
+    name: "CareSync",
+    description:
+      "Developed an AI surgical workflow assistant with RAG and LoRA fine-tuning for accurate, context-specific procedure recommendations. Delivered a React + Tailwind UI for seamless doctor–AI interaction; ranked in the top 5 at the Commure Hackathon.",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "FastAPI",
+        color: "green-text-gradient",
+      },
+      {
+        name: "RAG",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "LoRA",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "AI Agent",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: CareSync,
+  },
+  {
+    name: "AgilePilot",
+    description:
+      "Designed a full-stack project management tool. Developed scalable RESTful APIs using Node.js, Express, and efficient PostgreSQL queries.",
+    tags: [
+      {
+        name: "React",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Express",
+        color: "green-text-gradient",
+      },
+      {
+        name: "PostgreSQL",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Postman",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: AgilePilot,
+  },
+  {
+    name: "Multiplayer Chess with AI Bot",
+    description:
+      "Built real-time multiplayer chess with Django Channels for instant gameplay updates via WebSockets. Containerized and deployed app on Google Cloud using Docker, PostgreSQL, and load balancing. Created customizable AI opponents with varying difficulty for diverse user experience.",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Django",
+        color: "green-text-gradient",
+      },
+      {
+        name: "GCP",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Docker",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "WebSockets",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Redis",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Bootstrap",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: Chess,
+  },
+  {
+    name: "ThreadMirror",
+    description:
+      "Converts Reddit threads into narrated podcasts using AI-driven text-to-speech and LLM rewriting. Generates context-driven backgrounds, reactions, and summaries based on thread tone. Queues automated audio generation; enables user subscriptions to preferred subreddits.",
+    tags: [
+      {
+        name: "AI",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Text-to-Speech",
+        color: "green-text-gradient",
+      },
+      {
+        name: "LLM",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ThreadMirror,
+  },
+  {
+    name: "BiasMap",
+    description:
+      "Scrapes and analyzes headlines using NLP, mapping media biases visually across political spectrums. Allows event framing comparison across outlets through interactive, clickable heatmap visualizations. Full-stack app built on Django backend, SQLite database, and newspaper3k for web scraping.",
+    tags: [
+      {
+        name: "Django",
+        color: "green-text-gradient",
+      },
       {
         name: "NLP",
         color: "blue-text-gradient",
       },
       {
-        name: "Kiwi",
-        color: "blue-text-gradient",
+        name: "SQLite",
+        color: "pink-text-gradient",
       },
       {
-        name: "Python",
-        color: "blue-text-gradient",
+        name: "newspaper3k",
+        color: "green-text-gradient",
       },
     ],
-    image: chatbot,
-    source_code_link: "https://github.com/pranjalpimpale4/College_Enquiry_Chatbot",
-    research_paper_link: "https://drive.google.com/file/d/1FxUasJsF3A8DaF8PG_CY-xDxVosaZi7H/view?usp=sharing",
+    image: BiasMap,
   },
   {
-    name: "ChargeEasy",
+    name: "DevBoard",
     description:
-      "Developed a full-stack web application to assist electric vehicle (EV) drivers with navigation, utilizing the Angular framework for the frontend and Firebase for the backend.",
+      "Animates GitHub repository histories, visualizing commits, contributor activity, and code growth. Creates interactive issue/PR bubbles and commit bursts, exportable as timeline videos. Built with Next.js frontend, Chart.js visuals, Node backend; integrates Git logs and GitHub APIs.",
     tags: [
       {
-        name: "Angular",
+        name: "Next.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Chart.js",
         color: "blue-text-gradient",
       },
       {
-        name: "Firebase",
+        name: "Node.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "GitHub API",
         color: "blue-text-gradient",
       },
     ],
-    image: ChargeEasy,
-    source_code_link: "https://github.com/pranjalpimpale4/ChargeEasy",
-    research_paper_link: "https://drive.google.com/file/d/1jBjI5_pBLD1MJ6_msf-n9DB0alx0NM36/view?usp=sharing",
-  },
-  {
-    name: "Contactless Fingerprint Verification",
-    description:
-      "Implemented pre-processing and a CNN model using deep learning on the Keras framework, achieving fingerprint recognition accuracy exceeding 90%.",
-    tags: [
-      {
-        name: "CCN",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Python",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "MATLAB",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: cfv,
-    source_code_link: "https://github.com/pranjalpimpale4/Contactless-Fingerprint-Verification-using-Neural-Networks",
-    research_paper_link: "https://ieeexplore.ieee.org/document/9510036",
-  },
-  {
-    name: "Bank DBMS",
-    description:
-      "Developed an entire Bank database management system using MySQL Workbench and SQL queries required for it considering most of the use cases of a bank.",
-    tags: [
-      {
-        name: "MySQL",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: bank,
-    source_code_link: "https://github.com/pranjalpimpale4/Bank-Database-Management-System",
-    research_paper_link: "https://drive.google.com/file/d/1QG-dN4OuhoRlsMDa62uPeXHuC9CWfuF8/view?usp=sharing",
-  },
-  {
-    name: "DTMF Encoder Decoder",
-    description:
-      "Developed a Dual Tone Multi-Frequency MATLAB web app for encoding and decoding in text and audio format based on frequencies of the input using Gonzalez algorithm",
-    tags: [
-      {
-        name: "MATLAB",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: DTMF,
-    source_code_link: "https://github.com/pranjalpimpale4/Bank-Database-Management-System",
-    research_paper_link: "https://drive.google.com/file/d/1vzQwEaY9_SmQfxN8SoC63_FUKKqyc-Rw/view?usp=sharing",
+    image: DevBoard,
   },
 ];
 

@@ -44,6 +44,13 @@ import ChargeEasy from "./ChargeEasy.png";
 import cfv from "./cfv.png";
 import bank from "./bank.jpeg";
 import DTMF from "./dtmf.jpeg";
+import CareSync from "./CareSync.jpeg";
+import DevBoard from "./DevBoard.jpeg";
+import BiasMap from "./BiasMap.jpeg";
+import ThreadMirror from "./ThreadMirror.jpeg";
+import Chess from "./Chess.jpeg";
+import AgilePilot from "./AgilePilot.jpeg";
+import SynapseSupply from "./SynapseSupply.jpeg";
 import mail from "./mail.png";
 import phone from "./phone.png"
 import linkedin from "./linkedin.png"
@@ -91,6 +98,13 @@ export {
   cfv,
   bank,
   DTMF,
+  CareSync,
+  DevBoard,
+  BiasMap,
+  ThreadMirror,
+  Chess,
+  AgilePilot,
+  SynapseSupply,
   mendix,
   mail,
   phone,
